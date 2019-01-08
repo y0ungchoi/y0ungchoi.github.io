@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[JAVA]Lesson03. Functions'
+title: '[JAVA]03. Functions'
 author: emily.choi
 date: 2019-01-08 13:00
 tags: [java]
