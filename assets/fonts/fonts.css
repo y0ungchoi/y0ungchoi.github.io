@@ -1,0 +1,15 @@
+/*-------------------------------------------------------*/
+/*
+ * Kakao
+ */
+@font-face {
+    font-family: 'NanumGothicCoding';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Nanum Regular'), 
+    url(NanumGothicCoding.eot) format('eot'),
+    url(NanumGothicCoding.woff) format('woff'),
+    url(NanumGothicCoding.otf) format('opentype');
+}
+
+/*-------------------------------------------------------*/
