@@ -18,6 +18,7 @@ image: /files/covers/java_logo.jpg
 - Function definition
 1. Contains the code a finction executes
 2. Calling a function is equivalent to execution the cide in the definition
+
 ```java
 public void chorus() {
     if(playButton){
@@ -30,22 +31,26 @@ public void chorus() {
 ```
 - public : access modigier
 - void : return type
-- function name : how ew call our function ex) chorus is function name at that code
+- function name : how ew call our function ex)chorus is function name at that code
 
 - Function Calling
+
 ```java
 public void chorus() {
     if(x= null)
 }
 chorus(); //call a function
 ```
+
 - Parameters and Arguments
+
 ```java
 public void greeting(String location){ //Argument : location)
     System.out.println("Hello, " + location);
 }
 greeting(Korea); // print out : Hello Korea 
 ```
+
 ```java
 public void weatherInterpreter(int temperature) {
     if (temperature > 30) {
@@ -73,6 +78,7 @@ public double makeChange(double itemCost, double dollarsProvided) {
 }
 ```
 ### Random Numbers
+
 ```java
 //random num between 0 and (almost) 1
 double randomNumber = Math.random();
@@ -82,7 +88,9 @@ randomNumber = randomNumber * 10;
 // ex. 9.985 becomes 9
 int randomInt = (int) randomNumber
 ```
+
 - Random dice
+
 ```java
 public int rollDice(int sides){
         // random num between 0 and (almost) 1
