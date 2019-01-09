@@ -3,7 +3,7 @@ layout: post
 title: '[MAC]How to preview Markdown on VScode'
 author: emily.choi
 date: 2019-01-09 10:00
-tags: [mac], [markdown], [vscode]
+tags: [mac,markdown,vscode]
 image: /files/covers/vscode.png
 ---
 # Markdown and Visual Studio Code on Mac
