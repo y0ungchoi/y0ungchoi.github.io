@@ -2,7 +2,7 @@
 layout: post
 title: '[JAVA]04. Loops'
 author: emily.choi
-date: 2019-01-010 13:00
+date: 2019-01-10 13:00
 tags: [java]
 image: /files/covers/java_logo.jpg
 ---
@@ -30,6 +30,7 @@ public void alarm() {
     ---//until someone turn off the alarm    
 }
 ```
+
 ```java
 /*Using While Loop*/
 public void alarm(){
@@ -57,8 +58,10 @@ public void raiseAlarm(int numOfWarnings) {
     }
     
 }
+```
 
 ### For Loops
+
 ```java
 public void raiseAlarm(int numOfWarnings) {
     for(int i = 1; i<= numOfWarnings; i++){
@@ -66,6 +69,7 @@ public void raiseAlarm(int numOfWarnings) {
     }
 }
 ```
+
 ```java
 /*
 Adds the numbers 15+116+ .. + 20
@@ -79,16 +83,19 @@ public int addNmbers() {
     return sum;
 }
 ```
+
 ```java
 /* Counting Down */
 for(int i = 3; i >= 1; i--){
     System.out.println(i);
 }
 ```
+
 ```java
 i = i+1 == i++
 i = i + 5 == i += 5 
 ```
+
 ```java
 /*Using break;*/
 public int martingale() {
@@ -115,11 +122,13 @@ public int martingale() {
 ### Arrays
 - cell : value
 - index 
+
 ```java
 int [] numbers = {12,1,777,3,4,0,0,121,1,-4,0,-100,2};
 System.out.println(number[0]); // answer is 12
 System.out.println()
 ```  
+
 ```java
 String [] nesOutlet = {"KBS", "MBC", "SBS", "TVN", "JTBC", "BBC", "FOX", "CNN", "ABC"};
 double lucky = Math.random();
@@ -142,6 +151,7 @@ double average = total.size;
 return average;
 }
 ```
+
 ```java
 /* Array Search - find longest name*/
 public String findLongestName(String [] names){
@@ -157,7 +167,7 @@ public String findLongestName(String [] names){
 }
 ```
 
-# 2D arrays
+### 2D arrays
 ```java
 public static double englishAverage(int [][] grades, int student) {
     int subjects = grades.length;
@@ -169,5 +179,6 @@ public static double englishAverage(int [][] grades, int student) {
     return average;
 }
 ```
+
 > I'm studing a "Java Programming Basics" @[Udacity](https://www.udacity.com/course/java-programming-basics--ud282).
 

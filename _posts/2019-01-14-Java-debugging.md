@@ -16,8 +16,8 @@ image: /files/covers/java_logo.jpg
 2. javac: A Java Compiler
 
 ### How to build java
-1. Verufy that you have java
-```
-open a termina window and type ***java -version 
-> I'm studing a "Java Programming Basics" @[Udacity](https://www.udacity.com/course/java-programming-basics--ud282).
+1. Verify that you have java
+open a terminal window and type ***java -version 
+
+> I'm studying a "Java Programming Basics" @[Udacity](https://www.udacity.com/course/java-programming-basics--ud282).
 
