@@ -57,3 +57,8 @@ asset_url: /assets
 #asset_url: //t1.daumcdn.net/osa/blog/assets
 github_url:
   username: emily7485
+  
+  
+#disqus
+disqus_url: http://disqus.com/by/emily_github 
+disqus_id: https-emily7485-github-io
