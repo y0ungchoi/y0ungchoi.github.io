@@ -59,6 +59,7 @@ github_url:
   username: emily7485
   
   
-#disqus
+# disqus
+disqus: True
 disqus_url: http://disqus.com/by/emily_github 
 disqus_id: https-emily7485-github-io
