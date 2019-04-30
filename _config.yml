@@ -60,6 +60,4 @@ github_url:
   
   
 # disqus
-disqus: True
-disqus_url: http://disqus.com/by/emily_github 
-disqus_id: https-emily7485-github-io
+disqus-shortname: emily_github
