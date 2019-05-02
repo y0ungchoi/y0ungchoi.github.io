@@ -6,9 +6,9 @@ date: 2019-04-29 13:00
 tags: [html]
 image: /files/covers/html.png
 ---
-# HTML CheatSheet
+# HTML
 
-## Lesson 1: HTML
+## Lesson 1: HTML CheatSheet
 
 ### HTML
 - HTML: HyperText Markup Language
@@ -60,7 +60,7 @@ horizontal line
 <hr />
 
 line break
-<br />
+<br>
 ```
 
 #### 2. Structures
@@ -94,26 +94,41 @@ unordered list
 ```
 
 - image
-
+	- format: jpg, gif, png
+	
 ```html
-<img src="/demo.jpg" alt="description" 
-height="48" width="100" />
-```
+<img src="/demo.jpg" alt="description" height="48" width="100" align="top/middle/bottom/left/right/" />
 
-- caption
-
-```html
+caption
 <figure>
-<img src="../images/otters.jpg">
+<img src="../images/otters.jpg" />
 <figcaption> 바다 수달이 손을 잡고 자고 있어요</figcaption> 
 </figure>
 ```
-- align
+
+#### table
 
 ```html
-align="top/middle/bottom/left/right"
+<table border="1" bgcolor="pink"
+	<tr> -->행
+		<th></th>
+		<th scope="col"> 행1</th>
+		<th scope="col"> 행2</th>
+	</tr>
+	<tr>
+		<th></th>
+		<th scope="row"> 열1</th>
+		<td>1,1</td>
+		<td>1,2</td>
+	</tr>
+	<tr>
+		<th></th>
+		<th scope="row"> 열2</th>
+		<td>2,1</td>
+		<td>2,2</td>
+	</tr>
+</table>
 ```
-
 
 
 > refer to this website [HTML CheatSheet](https://htmlcheatsheet.com/).
