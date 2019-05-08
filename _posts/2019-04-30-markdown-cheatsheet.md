@@ -10,12 +10,12 @@ image: /files/covers/markdown.png
 
 ## Lesson 1: Markdown Cheat Sheet
 
-### Markdown
+### **Markdown**
 - Markdown: A plain text format for writing structured documents
 
-### CheatSheet
+### **CheatSheet**
 
-#### **headings**
+#### 1. headings
  
 ```
 # H1
@@ -32,7 +32,7 @@ image: /files/covers/markdown.png
 ##### H5
 ###### H6
 
-#### **emphasis**
+#### 2. emphasis
  
 ```
 **BOLD**
@@ -45,7 +45,7 @@ image: /files/covers/markdown.png
 
 ***BOLD and Italic***
 
-#### **list**
+#### 3. list
 
  - unordered 
  
@@ -77,7 +77,8 @@ image: /files/covers/markdown.png
 		1. A
 1. A
 
-#### **images**
+#### 4. images
+
 ```
 ![IMAGE](image.png "title")
  
@@ -87,7 +88,8 @@ image: /files/covers/markdown.png
  
 ![MYIG](https://scontent-icn1-1.cdninstagram.com/vp/7de1ac7385c82f8db5dfc71e52c6b74a/5D6AB98B/t51.2885-15/e15/11111259_1639308979626133_1734319377_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com)
 
-#### **link**
+#### 5. link
+
 ```
 [](url) 
 
@@ -98,7 +100,8 @@ image: /files/covers/markdown.png
 
 <https://www.instagram.com/emily_daily_/> 
 
-#### **blockquotes**
+#### 6. blockquotes
+
 ```
 > YOLO
 
@@ -107,7 +110,14 @@ image: /files/covers/markdown.png
 > with **multiple** Paragraphs
 ```
 
-#### **code**
+> YOLO
+
+> Blockquotes
+>
+> with **multiple** Paragraphs
+
+#### 7. code
+
 	```java(language)
 	System.out.println("Hello JAVA");(code)
 	```
@@ -120,12 +130,6 @@ System.out.println("Hello JAVA");
 print("Hello Python")
 ```
 
-
-> YOLO
-
-> Blockquotes
->
-> with **multiple** Paragraphs
 
 > refer to this website [Markdown CheatSheet](https://www.markdownguide.org/cheat-sheet/).
 

@@ -44,7 +44,7 @@ image: /files/covers/html.png
  <!-- HTML Comment -->
 ```
 
-- quotation
+ - quotation
 
 ```html
 <q>Success is a journey not a destination.</q>
@@ -53,7 +53,7 @@ The Rubik's Cube is the World’s best selling puzzle toy.
 </blockquote> 
 ```
 
-- line
+ - line
 
 ```html
 horizontal line
@@ -65,7 +65,7 @@ line break
 
 #### 2. Structures
 
-- list
+ - list
 
 ```html
 ordered lost
@@ -84,7 +84,7 @@ unordered list
 ```
 
 #### 3. Attributes
-- link
+ - link
 
 ```html
 <a href= "https://htmlcheatsheet.com/" target="_blank"> html cheatsheet</a> 
@@ -93,7 +93,7 @@ unordered list
 <a href= "../index.html"> top</a>
 ```
 
-- image
+ - image
 	- format: jpg, gif, png
 	
 ```html
