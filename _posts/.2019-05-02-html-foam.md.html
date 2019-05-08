@@ -643,12 +643,14 @@ function setDocumentScrollTop(ypos)
 <h2> <a id="layout-posttitle-html02-formsauthor-emilychoidate-2019-05-02-1100tags-htmlimage-filescovershtmlpng" class="anchor" href="#layout-posttitle-html02-formsauthor-emilychoidate-2019-05-02-1100tags-htmlimage-filescovershtmlpng" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>layout: post title: '[HTML]02. Forms' author: emily.choi date: 2019-05-02 11:00 tags: [html] image: /files/covers/html.png</h2> 
 <h1> <a id="html" class="anchor" href="#html" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HTML</h1> 
 <h2> <a id="lesson-2-forms" class="anchor" href="#lesson-2-forms" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Lesson 2: Forms</h2> 
-<h3> <a id="form" class="anchor" href="#form" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Form</h3> 
-<h4> <a id="1-structure" class="anchor" href="#1-structure" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. structure</h4> 
+<h3> <a id="form" class="anchor" href="#form" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Form</strong> </h3> 
+<h4> <a id="1-structures" class="anchor" href="#1-structures" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. Structures</h4> 
 <ul> 
- <li> <p>method</p> </li> 
- <li> <p>get : small data, fast, non-secure data</p> </li> 
- <li> <p>post: large amounts of data, slow, secure data</p> </li> 
+ <li> <p>method</p> 
+  <ul> 
+   <li>get : small data, fast, non-secure data</li> 
+   <li>post: large amounts of data, slow, secure data</li> 
+  </ul> </li> 
 </ul> 
 <div class="highlight highlight-text-html-basic">
  <pre>&lt;<span class="pl-ent">html</span>&gt;
@@ -657,48 +659,93 @@ function setDocumentScrollTop(ypos)
 &lt;<span class="pl-ent">title</span>&gt;Foam structure&lt;/<span class="pl-ent">title</span>&gt;
 &lt;/<span class="pl-ent">head</span>&gt;
 &lt;<span class="pl-ent">body</span>&gt;
-	&lt;<span class="pl-ent">form</span> <span class="pl-e">action</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>../jsp/hello.jsp<span class="pl-pds">&quot;</span></span> <span class="pl-e">method</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>get<span class="pl-pds">&quot;</span></span>&gt;
+	&lt;<span class="pl-ent">form</span> <span class="pl-e">action</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>../jsp/hello.jsp<span class="pl-pds">&quot;</span></span> <span class="pl-e">method</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>post<span class="pl-pds">&quot;</span></span>&gt;
 		&lt;<span class="pl-ent">p</span>&gt;foam control&lt;/<span class="pl-ent">p</span>&gt;
 	&lt;/<span class="pl-ent">form</span>&gt;
 &lt;/<span class="pl-ent">body</span>&gt;
 &lt;/<span class="pl-ent">html</span>&gt;</pre>
 </div> 
-<h4> <a id="2-input" class="anchor" href="#2-input" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. input</h4> 
-<p><code>type: attribute name: variable</code></p> 
+<h4> <a id="2-input" class="anchor" href="#2-input" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. Input</h4> 
+<div class="highlight highlight-text-html-basic">
+ <pre>&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>attribute<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>variable<span class="pl-pds">&quot;</span></span> <span class="pl-e">size</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>20<span class="pl-pds">&quot;</span></span> <span class="pl-e">maxlength</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>20<span class="pl-pds">&quot;</span></span> /&gt;</pre>
+</div> 
 <ul> 
  <li>text: Defines a one line text input field</li> 
 </ul> 
 <div class="highlight highlight-text-html-basic">
- <pre>&lt;<span class="pl-ent">foam</span>&gt;
+ <pre>&lt;<span class="pl-ent">form</span>&gt;
 	text: &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>text<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>text<span class="pl-pds">&quot;</span></span>&gt;
-&lt;/<span class="pl-ent">foam</span>&gt;</pre>
+	text: &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>text<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>text<span class="pl-pds">&quot;</span></span> <span class="pl-e">placeholder</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>inside text content<span class="pl-pds">&quot;</span></span>&gt;
+&lt;/<span class="pl-ent">form</span>&gt;</pre>
 </div> 
 <ul> 
  <li>radio: Defines a radio button (for selecting <strong>one</strong> of many choices)</li> 
 </ul> 
 <div class="highlight highlight-text-html-basic">
- <pre>&lt;<span class="pl-ent">foam</span>&gt;
-	radio: &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>radio<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>gender<span class="pl-pds">&quot;</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>male<span class="pl-pds">&quot;</span></span> <span class="pl-e">checked</span>&gt; Male&lt;<span class="pl-ent">br</span>&gt;
-	radio: &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>radio<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>gender<span class="pl-pds">&quot;</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>female<span class="pl-pds">&quot;</span></span>&gt; Female
-&lt;/<span class="pl-ent">foam</span>&gt;</pre>
+ <pre>&lt;<span class="pl-ent">form</span>&gt;gender(select one) 
+	&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>radio<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>gender<span class="pl-pds">&quot;</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>male<span class="pl-pds">&quot;</span></span> <span class="pl-e">checked</span>&gt; Male&lt;<span class="pl-ent">br</span>&gt;
+	&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>radio<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>gender<span class="pl-pds">&quot;</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>female<span class="pl-pds">&quot;</span></span>&gt; Female
+&lt;/<span class="pl-ent">form</span>&gt;</pre>
 </div> 
 <ul> 
  <li>chaeck box: Defines a chaeck box button (for selecting <strong>many choices</strong>)</li> 
 </ul> 
 <div class="highlight highlight-text-html-basic">
- <pre>&lt;<span class="pl-ent">foam</span>&gt;
-	radio: &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>checkbox<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>gender<span class="pl-pds">&quot;</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>male<span class="pl-pds">&quot;</span></span> <span class="pl-e">checked</span>&gt; Male&lt;<span class="pl-ent">br</span>&gt;
-	radio: &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>radio<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>gender<span class="pl-pds">&quot;</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>female<span class="pl-pds">&quot;</span></span>&gt; Female
-&lt;/<span class="pl-ent">foam</span>&gt;</pre>
+ <pre>&lt;<span class="pl-ent">form</span>&gt;
+	todo list(select multiple)&lt;<span class="pl-ent">br</span>&gt;
+	&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>checkbox<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>todo<span class="pl-pds">&quot;</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>jogging<span class="pl-pds">&quot;</span></span> <span class="pl-e">checked</span>&gt; Jogging&lt;<span class="pl-ent">br</span>&gt;
+	&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>checkbox<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>todo<span class="pl-pds">&quot;</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>shopping<span class="pl-pds">&quot;</span></span>&gt; Shopping&lt;<span class="pl-ent">br</span>&gt;
+	&lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>checkbox<span class="pl-pds">&quot;</span></span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>todo<span class="pl-pds">&quot;</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>studying<span class="pl-pds">&quot;</span></span>&gt; Studying&lt;<span class="pl-ent">br</span>&gt;
+&lt;/<span class="pl-ent">form</span>&gt;</pre>
 </div> 
 <ul> 
- <li>submit: Defines a submit button (for submitting the form)</li> 
+ <li>submit: Defines a submit <strong>button</strong> (for submitting the form)</li> 
 </ul> 
 <div class="highlight highlight-text-html-basic">
- <pre>&lt;<span class="pl-ent">foam</span> <span class="pl-e">action</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>/action_page.php<span class="pl-pds">&quot;</span></span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>_blank<span class="pl-pds">&quot;</span></span>&gt;
+ <pre>&lt;<span class="pl-ent">form</span> <span class="pl-e">action</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>/action_page.php<span class="pl-pds">&quot;</span></span> <span class="pl-e">target</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>_blank<span class="pl-pds">&quot;</span></span>&gt;
 	submit: &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>submit<span class="pl-pds">&quot;</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>Submit<span class="pl-pds">&quot;</span></span>&gt;
-&lt;/<span class="pl-ent">foam</span>&gt;</pre>
+&lt;/<span class="pl-ent">form</span>&gt;</pre>
 </div> 
+<ul> 
+ <li>password: replacing each character with a symbol such as the asterisk (&quot;*&quot;)</li> 
+</ul> 
+<div class="highlight highlight-text-html-basic">
+ <pre>&lt;<span class="pl-ent">form</span>&gt;
+	Password: &lt;<span class="pl-ent">input</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>password<span class="pl-pds">&quot;</span></span>&gt;
+&lt;/<span class="pl-ent">form</span>&gt;</pre>
+</div> 
+<ul> 
+ <li>hidden:</li> 
+</ul> 
+<h4> <a id="3-tags" class="anchor" href="#3-tags" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. Tags</h4> 
+<ul> 
+ <li>paragraph: defining a paragraph</li> 
+</ul> 
+<div class="highlight highlight-text-html-basic">
+ <pre>&lt;<span class="pl-ent">p</span>&gt;This paragraph is defined using the HTML p tag.&lt;/<span class="pl-ent">p</span>&gt;</pre>
+</div> 
+<ul> 
+ <li>textarea: replacing each character with a symbol such as the asterisk (&quot;*&quot;)</li> 
+</ul> 
+<div class="highlight highlight-text-html-basic">
+ <pre>&lt;<span class="pl-ent">form</span>&gt;
+	&lt;<span class="pl-ent">textarea</span> <span class="pl-e">rows</span>=<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span> <span class="pl-e">cols</span>=<span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span> <span class="pl-e">disabled</span>&gt;Enter your text here...&lt;/<span class="pl-ent">textarea</span>&gt;
+&lt;/<span class="pl-ent">form</span>&gt;</pre>
+</div> 
+<ul> 
+ <li>fieldset: grouping related form elements</li> 
+</ul> 
+<div class="highlight highlight-text-html-basic">
+ <pre>&lt;<span class="pl-ent">form</span>&gt;
+	&lt;<span class="pl-ent">fieldset</span>&gt;
+		&lt;<span class="pl-ent">legend</span>&gt;title&lt;/<span class="pl-ent">legend</span>&gt;
+		&lt;<span class="pl-ent">p</span>&gt;&lt;/<span class="pl-ent">p</span>&gt;
+	&lt;/<span class="pl-ent">fieldset</span>&gt;
+&lt;/<span class="pl-ent">foam</span>&gt; </pre>
+</div> 
+<ul> 
+ <li>button</li> 
+</ul> 
 <blockquote> 
  <p>refer to this website <a href="https://htmlcheatsheet.com/" rel="nofollow">HTML CheatSheet</a>.</p> 
 </blockquote>

@@ -10,12 +10,12 @@ image: /files/covers/html.png
 
 ## Lesson 1: HTML CheatSheet
 
-### HTML
+### **HTML**
 - HTML: HyperText Markup Language
 
-### CheatSheet
+### **CheatSheet**
 
-#### 1. tags
+#### 1. Tags
  - headings
  
 ```html
@@ -106,7 +106,7 @@ caption
 </figure>
 ```
 
-#### table
+#### 4. Table
 
 ```html
 <table border="1" bgcolor="pink"
