@@ -12,4 +12,17 @@
     url(NanumGothicCoding.otf) format('opentype');
 }
 
+@font-face {
+    font-family: 'NanumGothicCoding';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Nanum Bold'), 
+    url(NanumGothicCoding-Bold.eot) format('eot'),
+    url(NanumGothicCoding-Bold.woff) format('woff'),
+    url(NanumGothicCoding-Bold.otf) format('opentype');
+}
+
+
+
+
 /*-------------------------------------------------------*/
