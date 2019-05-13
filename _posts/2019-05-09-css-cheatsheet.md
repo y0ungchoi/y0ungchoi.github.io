@@ -1,0 +1,122 @@
+---
+layout: post
+title: '[CSS]01. CheatSheet'
+author: emily.choi
+date: 2019-05-09 09:00
+tags: [css]
+image: /files/covers/html.png
+---
+# css
+
+## Lesson 1: Cheat Sheet
+
+### **CSS** 
+- CSS: Cascading Style Sheets
+
+#### 1. Structures
+- method
+ 
+	- get : small data, fast, non-secure data
+	- post: large amounts of data, slow, secure data
+
+ 
+```html
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Foam structure</title>
+</head>
+<body>
+	<form action="../jsp/hello.jsp" method="post">
+		<p>foam control</p>
+	</form>
+</body>
+</html>
+```
+
+#### 2. Input
+	
+```html	
+<input type="attribute" name="variable" size="20" maxlength="20" />
+```
+
+- text: Defines a one line text input field
+
+```html
+<form>
+	text: <input type="text" name="text">
+	text: <input type="text" name="text" placeholder="inside text content">
+</form>
+```
+
+- radio: Defines a radio button (for selecting **one** of many choices)
+
+```html
+<form>gender(select one) 
+	<input type="radio" name="gender" value="male" checked> Male<br>
+	<input type="radio" name="gender" value="female"> Female
+</form>
+```
+
+- chaeck box: Defines a chaeck box button (for selecting **many choices**)
+
+```html
+<form>
+	todo list(select multiple)<br>
+	<input type="checkbox" name="todo" value="jogging" checked> Jogging<br>
+	<input type="checkbox" name="todo" value="shopping"> Shopping<br>
+	<input type="checkbox" name="todo" value="studying"> Studying<br>
+</form>
+```
+
+- submit: Defines a submit **button** (for submitting the form)
+
+```html
+<form action="/action_page.php" target="_blank">
+	submit: <input type="submit" value="Submit">
+</form>
+```
+
+- password: replacing each character with a symbol such as the asterisk ("*")
+
+```html
+<form>
+	Password: <input type="password">
+</form>
+```
+
+- hidden:
+
+#### 3. Tags
+
+- paragraph: defining a paragraph
+
+```html
+<p>This paragraph is defined using the HTML p tag.</p>
+```
+
+- textarea: replacing each character with a symbol such as the asterisk ("*")
+
+```html
+<form>
+	<textarea rows="" cols="" disabled>Enter your text here...</textarea>
+</form>
+```
+
+- fieldset: grouping related form elements
+
+```html
+<form>
+	<fieldset>
+		<legend>title</legend>
+		<p></p>
+	</fieldset>
+</foam> 
+```
+<script src="https://gist.github.com/emily7485/4537a5282a77528fa4ccefcb22e2da6f.js"></script>
+
+- button
+
+
+> refer to this website [HTML CheatSheet](https://htmlcheatsheet.com/).
+
