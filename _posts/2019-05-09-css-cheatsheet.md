@@ -113,7 +113,7 @@ image: /files/covers/html.png
 	</fieldset>
 </foam> 
 ```
-<script src="https://gist.github.com/emily7485/4537a5282a77528fa4ccefcb22e2da6f.js"></script>
+
 
 - button
 
