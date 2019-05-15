@@ -1296,6 +1296,7 @@ body.page-template {
 
     #cover h1 + p {
         padding-top: 10px !important;
+        padding-bottom: 10px !important;
     }
 
     /* navbar */
