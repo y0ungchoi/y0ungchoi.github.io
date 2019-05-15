@@ -110,20 +110,20 @@ caption
 
 ```html
 <table border="1" bgcolor="pink"
-	<tr> -->행
+	<tr> -->colum 행
 		<th></th>
-		<th scope="col"> 행1</th>
-		<th scope="col"> 행2</th>
+		<th scope="col"> col1</th>
+		<th scope="col"> col2</th>
 	</tr>
 	<tr>
 		<th></th>
-		<th scope="row"> 열1</th>
+		<th scope="row"> row1</th>
 		<td>1,1</td>
 		<td>1,2</td>
 	</tr>
 	<tr>
 		<th></th>
-		<th scope="row"> 열2</th>
+		<th scope="row"> row2</th>
 		<td>2,1</td>
 		<td>2,2</td>
 	</tr>

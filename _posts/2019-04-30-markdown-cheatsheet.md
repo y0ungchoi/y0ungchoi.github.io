@@ -118,8 +118,8 @@ image: /files/covers/markdown.png
 
 #### 7. code
 
-	```java(language)
-	System.out.println("Hello JAVA");(code)
+	```(language)
+	System.out.println("Hello JAVA");
 	```
 
 ```java
