@@ -22,19 +22,133 @@ selector{
   property2: value2;
 }
 </style>
+
+<html>
+  <body>
+    <selector>
+    </selector>
+    </body>
+  </html>
 ```
 
-#### 2. Input
+#### 2. Style
 
-- text: Defines a one line text input field
+![IMAGE](../files/box.png)
+
+
 
 ```html
-<form>
-	text: <input type="text" name="text">
-	text: <input type="text" name="text" placeholder="inside text content">
-</form>
+<style>
+content{
+  padding: 1px auto 1px auto;
+  border-width: 1px;
+  border-sytle: solid/double/none; 
+  border-color: red;
+  border: 1px solid red;
+  margin: 2px auto 2px auto;
+}
+</style>
+
+<html>
+  <body>
+    <content>
+    </content>
+    </body>
+  </html>
 ```
 
+- align
+
+```html
+<style>
+  /* center align */
+selector{
+  text-align: center/left/right/justify; 
+  /* or */
+  margin: auto;
+  width: 100px;
+}
+</style>
+
+<html>
+  <body>
+    <selector>
+    </selector>
+    </body>
+  </html>
+```
+
+- link style
+
+```html
+<style>
+a:link{
+  /* default status */
+  color: value;
+  text-decoration: value2;
+}
+a:visited{
+/* after visited */
+}
+a:hover{
+/* mouse over */
+}
+a:active{
+/* clicking status */
+}
+a:focus{
+/* cliked status */
+}
+</style>
+
+<html>
+  <body>
+    <a href="www.example.com">website_link</a> 
+    </body>
+  </html>
+```
+
+- font
+
+```html
+<style>
+selector{
+  font-family: Arial, Verdana;
+  color : yellow;
+  font-size: 16px; /* default value */
+  font-weight: bold;
+}
+</style>
+
+<html>
+  <body>
+    <selector>
+    </selector>
+  </body>
+</html>
+```
+
+- text
+
+```html
+<style>
+selector{
+  text-decoration: none/underline/overline/line-through;
+
+  text-transform: uppercase/lowercase/capitalize;
+
+  letter-spacing: 0.2em;
+  word-spacing: 1em;
+}
+</style>
+
+<html>
+  <body>
+    <selector>
+    </selector>
+  </body>
+</html>
+```
 
 
 > refer to this website [CSS CheatSheet](https://html-css-js.com/css/).
