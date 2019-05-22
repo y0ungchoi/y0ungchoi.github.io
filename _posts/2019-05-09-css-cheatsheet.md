@@ -4,7 +4,7 @@ title: '[CSS]01. CheatSheet'
 author: emily.choi
 date: 2019-05-09 09:00
 tags: [css]
-image: /files/covers/html.png
+image: /files/covers/css.png
 ---
 # css
 
@@ -17,8 +17,9 @@ image: /files/covers/html.png
 
 ```html
 <style>
-body {
-	padding: 10px;
+selector{
+  property: value;
+  property2: value2;
 }
 </style>
 ```
