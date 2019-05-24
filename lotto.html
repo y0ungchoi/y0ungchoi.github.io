@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body {
+	margin: auto;
+	width: 800px;
+	text-align: center;
+}
+
+table {
+	margin: 20px auto 20px auto;
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid black;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+}
+
+.button {
+	margin: 10px auto 10px auto;
+	border-style: none;
+	border-radius: 30px;
+	font-size: 160%;
+	width: 60px;
+	height: 60px;
+}
+
+#first {
+	background-color: red;
+	color: white;
+}
+
+#second {
+	background-color: orange;
+	color: white;
+}
+
+#third {
+	background-color: yellow;
+	color: black;
+}
+
+#fourth {
+	background-color: green;
+	color: white;
+}
+
+#fifth {
+	background-color: aqua;
+	color: black;
+}
+
+#sixth {
+	background-color: blue;
+	color: white;
+}
+
+#bonus {
+	background-color: purple;
+	color: white;
+}
+
+p {
+	font-size: 20px;
+}
+
+.button:focus {
+	outline: none;
+}
+
+.button:visited {
+	background-color: black;
+}
+</style>
+<script type="text/javascript">
+	var myArr = new Array(6);
+	for (var i = 0; i < 6; i++) {
+		var input = prompt("내가 선택한 번호:  " + myArr.join(' ')
+				+ "\n로또 번호를 입력해 주세요(1~45)");
+		if (input > 45 || input < 0) {
+			alert("다시 입력해주세요");
+			i--;
+		} else {
+			myArr[i] = input;
+		}
+	}
+
+	/* 테이블 생성 */
+	document.write("<h2>로또는 해로워요<h2>");
+	document.write("<table>");
+	var num = 1;
+	for (var i = 0; i < 7; i++) {
+		document.write("<tr>");
+		for (var j = 0; j < 7; j++) {
+			if (num <= 45)
+				document.write("<td>" + num + "</td>");
+			else
+				document.write("<td>" + " " + "</td>");
+			num++;
+		}
+		document.write("</tr>");
+	}
+	document.write("</table>");
+
+	/* 랜덤 수 7개 생성 */
+	var arr = new Array(7);
+	for (var i = 0; i < 7; i++) {
+		arr[i] = parseInt((Math.random() * 45) + 1);
+		for (var j = 0; j < i; j++) {
+			if (arr[i] == arr[j]) {
+				i--;
+			}
+		}
+	}
+
+	/* 버튼과 랜덤값을 비교한 배경 변경 */
+	function first() {
+		var num = arr[0];
+		document.getElementsByTagName('td')[num - 1].id = 'first';
+		document.getElementById('result').value = myArr.join(' ');
+
+	}
+	function second() {
+		var num = arr[1];
+		document.getElementsByTagName('td')[num - 1].id = 'second';
+	}
+	function third() {
+		var num = arr[2];
+		document.getElementsByTagName('td')[num - 1].id = 'third';
+	}
+	function fourth() {
+		var num = arr[3];
+		document.getElementsByTagName('td')[num - 1].id = 'fourth';
+	}
+	function fifth() {
+		var num = arr[4];
+		document.getElementsByTagName('td')[num - 1].id = 'fifth';
+	}
+	function sixth() {
+		var num = arr[5];
+		document.getElementsByTagName('td')[num - 1].id = 'sixth';
+	}
+	function bonus() {
+		var num = arr[6];
+		var carry = arr.slice(0, 6)
+		document.getElementById('display').value = carry.join(' ') + " + "
+				+ arr[6] + "(보너스)";
+		document.getElementsByTagName('td')[num - 1].id = 'bonus';
+	}
+	function isEqual() {
+		var cnt = 0;
+		for (var i = 0; i < arr.length; i++) {
+			for (var j = 0; j < myArr.length; j++) {
+				if (arr[i] == myArr[j]) {
+					cnt++;
+				}
+			}
+		}
+		alert(cnt + "개의 숫자가 같습니다.");
+	}
+</script>
+</head>
+<body>
+	<h2>공을 눌러 주세요</h2>
+
+	<div>
+		<input type="button" class="button" id="first" value="1" onclick="first();"> 
+		<input type="button" class="button" id="second" value="2" onclick="second();"> 
+		<input type="button" class="button" id="third" value="3" onclick="third();">
+		<input type="button" class="button" id="fourth" value="4" onclick="fourth();"> 
+		<input type="button" class="button" id="fifth" value="5" onclick="fifth();"> 
+		<input type="button" class="button" id="sixth" value="6" onclick="sixth();"> 
+		<input type="button" class="button" id="bonus" value="♥" onclick="bonus();">
+	</div>
+	<div>
+		<p>
+			나의로또번호: <input id="result" type="text"
+				style="width: 300px; height: 30px; font-size: 20px;">
+		</p>
+		<p>
+			로또번호출력: <input id="display" type="text"
+				style="width: 300px; height: 30px; font-size: 20px;">
+		</p>
+		<input id="last" type="button" value="결과" onclick="isEqual();" style="width: 90px; height: 60p; ">
+	</div>
+</body>
+</html>
