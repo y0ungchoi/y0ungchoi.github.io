@@ -1,6 +1,6 @@
 ---
 layout: page
-title: _
+title: Portfolio
 image: /files/covers/portfolio.png
 permalink: /portfolio/
 sitemap: yes
@@ -16,11 +16,19 @@ tags: [portfolio]
   * Subject: 청각장애인을 위한 소리인식
   * role: All
 
+* [Example-Naver Sign In](https://)
+  * Language: Html, css, js
+  * etc: Blueno-nano, Click2 
+  * Subject: 청각장애인을 위한 소리인식
+  * role: All
+
+
 * [Project-소리인식](https://)
   * Language: C (Arduino)
   * etc: Blueno-nano, Click2 
   * Subject: 청각장애인을 위한 소리인식
   * role: 
+
 
 
 * [Project-졸음검출](https://)
