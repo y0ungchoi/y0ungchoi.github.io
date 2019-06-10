@@ -381,16 +381,16 @@ for small screen(<720px):
     background-image: url(../images/pc/icon_git.png);
 }
 
-#link-facebook {
-    background-image: url(../images/pc/icon_face.png);
+#link-codepen {
+    background-image: url(../images/pc/icon_codepen.png);
 }
 
-#link-twitter {
-    background-image: url(../images/pc/icon_twit.png);
+#link-naverblog {
+    background-image: url(../images/pc/icon_naverblog.png);
 }
 
-#link-rss {
-    background-image: url(../images/pc/icon_rss.png);
+#link-linkedin {
+    background-image: url(../images/pc/icon_linkedin.png);
 }
 
 #copyright {
@@ -516,21 +516,6 @@ for small screen(<720px):
 
 #shares > li.talk {
     display: none;
-}
-
-#share-facebook {
-    background: url(../images/pc/share_face.png) no-repeat;
-    background-size: 20px 20px;
-}
-
-#share-twitter {
-    background: url(../images/pc/share_twit.png) no-repeat;
-    background-size: 20px 20px;
-}
-
-#share-google {
-    background: url(../images/pc/share_goo.png) no-repeat;
-    background-size: 20px 20px;
 }
 
 #header,
@@ -1251,16 +1236,16 @@ body.page-template {
         background-image: url(../images/mo/icon_git.png);
     }
 
-    #links-facebook {
-        background-image: url(../images/mo/icon_face.png);
+    #links-codepen {
+        background-image: url(../images/mo/icon_codepen.png);
     }
 
-    #links-twitter {
-        background-image: url(../images/mo/icon_twit.png);
+    #links-naverblog {
+        background-image: url(../images/mo/icon_naverblog.png);
     }
 
-    #links-rss {
-        background-image: url(../images/mo/icon_rss.png);
+    #links-linkedin {
+        background-image: url(../images/mo/icon_linkedin.png);
     }
 
     #footer-menu {
@@ -1313,21 +1298,6 @@ body.page-template {
     #shares > li > * {
         width: 22px;
         height: 22px;
-    }
-
-    #share-facebook {
-        background-image: url(../images/mo/share_face.png);
-        background-size: 22px 22px;
-    }
-
-    #share-twitter {
-        background-image: url(../images/mo/share_twit.png);
-        background-size: 22px 22px;
-    }
-
-    #share-google {
-        background-image: url(../images/mo/share_goo.png);
-        background-size: 22px 22px;
     }
 
     /* list(loop) */
@@ -1585,32 +1555,20 @@ body.page-template {
         background-image: url(../images/mo/icon_git@2x.png);
     }
 
-    #link-facebook {
-        background-image: url(../images/mo/icon_face@2x.png);
+    #link-codepen {
+        background-image: url(../images/mo/icon_codepen@2x.png);
     }
 
-    #link-twitter {
-        background-image: url(../images/mo/icon_twit@2x.png);
+    #link-naverblog {
+        background-image: url(../images/mo/icon_naverblog.png);
     }
 
-    #link-rss {
-        background-image: url(../images/mo/icon_rss@2x.png);
+    #link-linkedin {
+        background-image: url(../images/mo/icon_linkedin@2x.png);
     }
 
     #link-back {
         background-image: url(../images/mo/icon_larrow@2x.png);
-    }
-
-    #share-facebook {
-        background-image: url(../images/mo/share_face@2x.png);
-    }
-
-    #share-twitter {
-        background-image: url(../images/mo/share_twit@2x.png);
-    }
-
-    #share-google {
-        background-image: url(../images/mo/share_goo@2x.png);
     }
 
     #post-list .author-image {
@@ -1665,32 +1623,20 @@ body.page-template {
         background-image: url(../images/mo/icon_git@3x.png);
     }
 
-    #link-facebook {
-        background-image: url(../images/mo/icon_face@3x.png);
+    #link-codepen {
+        background-image: url(../images/mo/icon_codepen@3x.png);
     }
 
-    #link-twitter {
-        background-image: url(../images/mo/icon_twit@3x.png);
+    #link-naverblog {
+        background-image: url(../images/mo/icon_naverblog@3x.png);
     }
 
-    #link-rss {
-        background-image: url(../images/mo/icon_rss@3x.png);
+    #link-linkedin {
+        background-image: url(../images/mo/icon_linkedin@3x.png);
     }
 
     #link-back {
         background-image: url(../images/mo/icon_larrow@3x.png);
-    }
-
-    #share-facebook {
-        background-image: url(../images/mo/share_face@3x.png);
-    }
-
-    #share-twitter {
-        background-image: url(../images/mo/share_twit@3x.png);
-    }
-
-    #share-google {
-        background-image: url(../images/mo/share_goo@3x.png);
     }
 
     #post-list .author-image {
