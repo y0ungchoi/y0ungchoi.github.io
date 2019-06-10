@@ -43,6 +43,5 @@ tags: [portfolio]
 
 ---
 
-> [http://github.com/emily7485](http://github.com/emily74857485) 에서 다양한 오픈소스 프로젝트를 만나보세요.
+> [Github](http://github.com/emily74857485) 에서 다양한 오픈소스 프로젝트를 만나보세요.
 
-[Blog]:http://blog.naver.com/emily7485

@@ -11,12 +11,26 @@ tags: [about]
 > -Jared Totten-
 
 
-**EunYoung "Emily" Choi** (b.1994)
+**Eunyoung "Emily" Choi** (b.1994)
 
-My name is **EunYoung**, but you can call me **Emily**. 
+My name is **Eunyoung**, but you can call me **Emily**. 
 I live in Seoul,South Korea, but I call many places home.
 Currently I'm a student.
-I'm feeding a cat named **Puppy**. Check my [instagram](https://www.instagram.com/emily_daily_/).
+I'm feeding a cat named **Puppy**. 
+
+- ![IMAGE](../images/pc/icon_git.png)[Github](http://github.com//emily7485)
+for Projects
+
+- ![IMAGE](../images/pc/icon_codepen.png)[CodePen](https://codepen.io/emily7485/)
+for Web
+
+- ![IMAGE](../images/pc/icon_instagram.png)[instagram](https://www.instagram.com/emily_daily_/) 
+for 
+
+-![IMAGE](../images/pc/icon_naverblog.png)[Naver Blog](http:///blog.naver.com/emily7485)
+
+
+- ![IMAGE](../images/pc/icon_linkedin.png)[LinkedIn](https://www.linkedin.com/in/eun-young-choi-986103134/)
 
 
 
