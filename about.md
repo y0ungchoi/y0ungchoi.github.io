@@ -30,6 +30,8 @@ I'm feeding a cat named **Puppy**.
 
 
 - [![NaverBlog](/assets/images/pc/icon_naverblog.png)](http:///blog.naver.com/emily7485)[ NaverBlog: Korean life](http:///blog.naver.com/emily7485)
+
+- [![Coding](/assets/images/pc/icon_coding.png)]([http:///blog.naver.com/emily7485](https://www.opentutorials.org/course/3799))[ 생활코딩: See my Course about C, JAVA, Python]([http:///blog.naver.com/emily7485](https://www.opentutorials.org/course/3799))
    
 
 - [![LinkedIn](/assets/images/pc/icon_linkedin.png)](https://www.linkedin.com/in/eun-young-choi-986103134/)[ LinkedIn: See my Profile](https://www.linkedin.com/in/eun-young-choi-986103134/) 
