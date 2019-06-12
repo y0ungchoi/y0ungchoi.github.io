@@ -26,7 +26,7 @@ tags: [portfolio]
 
 
 
-* [Project-소리인식](https://)
+* [Project-소리인식](https://github.com/emily7485/arduino-project-soundDetectwearabledevice)
   * Language: C (Arduino)
   * etc: Blueno-nano, Click2 
   * Subject: 청각장애인을 위한 소리인식
