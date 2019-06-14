@@ -33,7 +33,7 @@ selector{
 
 #### 2. Style
 
-![IMAGE](/files/box.png = 100x100)
+![IMAGE](/files/box.png)
 
 
 
