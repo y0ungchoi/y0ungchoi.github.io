@@ -34,6 +34,7 @@ selector{
 #### 2. Style
 
 ![IMAGE](/files/box.png)
+<!-- .element height="50%" width="50%" -->
 
 
 
