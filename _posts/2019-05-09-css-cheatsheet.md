@@ -33,7 +33,7 @@ selector{
 
 #### 2. Style
 
-![IMAGE](/files/box.png)
+![](/files/box.png)
 <!-- .element height="50%" width="50%" -->
 <img src="/files/box.png" height="200">
 
