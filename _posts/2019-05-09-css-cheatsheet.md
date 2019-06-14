@@ -35,7 +35,7 @@ selector{
 
 ![](/files/box.png)
 <!-- .element height="50%" width="50%" -->
-<img src="/files/box.png" height="200">
+<img src="/files/box.png" alt="img" height="200">
 
 
 
