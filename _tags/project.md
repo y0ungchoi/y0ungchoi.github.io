@@ -1,5 +1,5 @@
 ---
-name: About Project    
-title: 'PROJECT'
+name: project   
+title: 'About PROJECT'
 image: /files/covers/project.png
 ---
