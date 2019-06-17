@@ -711,8 +711,7 @@ a.tag:hover {
 +-----------------------------------------------+
 */
 
-body.home-template {
-}
+
 
 body.home-template #cover,
 body.archive-template #cover,
@@ -788,8 +787,7 @@ body.page-template #navbar {
 +-----------------------------------------------+
 */
 
-body.post-template {
-}
+
 
 /* @@iolo not vertical center!
 body.post-template #cover > *,
@@ -1068,8 +1066,7 @@ body.tag-template #navbar {
 }
 
 /* author */
-body.author-template {
-}
+
 
 body.author-template #cover h1,
 body.author-template #cover p {
@@ -1092,15 +1089,11 @@ body.author-template #cover p {
 
 /* tag */
 
-body.tag-template {
 
-}
 
 /* page */
 
-body.page-template {
 
-}
 
 #post-content.page {
     border-bottom: none;
@@ -1402,8 +1395,7 @@ body.page-template {
     }
 
     /* home */
-    body.home-template {
-    }
+    
 
     body.home-template #navbar,
     body.archive-template #navbar,
@@ -1420,8 +1412,7 @@ body.page-template {
     }
 
     /* post */
-    body.post-template {
-    }
+    
 
     #post-content {
         margin: 0 15px;
@@ -1479,12 +1470,10 @@ body.page-template {
         line-height: 100px;
     }
 
-    #post-links p {
-    }
+   
 
     /* author */
-    body.author-template {
-    }
+   
 
     body.author-template #cover h1,
     body.author-template #cover p {
@@ -1505,12 +1494,10 @@ body.page-template {
     }
 
     /* tag */
-    body.tag-template {
-    }
+    
 
     /* page */
-    body.page-template {
-    }
+    
 
     #forkme {
         margin-right: -20px;
