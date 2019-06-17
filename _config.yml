@@ -49,13 +49,13 @@ exclude: [README.md, Gemfile, Gemfile.lock]
 
 keep_files: [assets, files]
 github: [metadata]
-# iolo's custom
+# Eunyoung's custom
 author: emily7485@naver.com
 image: '/assets/images/default_blog_cover.jpg'
 asset_url: /assets
 #asset_url: //meta-kage.kakaocdn.net/dn/osa/blog/assets
 #asset_url: //t1.daumcdn.net/osa/blog/assets
-github_url:
+github_url: 
   username: emily7485
   
   
