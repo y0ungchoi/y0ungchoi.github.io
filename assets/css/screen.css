@@ -430,12 +430,12 @@ for small screen(<720px):
 }
 
 #cover h1 {
-    font-size: 60px;
+    font-size: 40px;
     line-height: 52px; /* 52px = 36(font-size) + 16(line-spacing) */
 }
 
 #cover p {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 22px; /* 22px = 14(font-size) + 8(line-spacing) @@iolo */
 }
 
