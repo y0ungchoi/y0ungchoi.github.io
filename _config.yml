@@ -15,7 +15,7 @@ excerpt_separator: <!--more-->
 
 markdown: kramdown
 
-krandown:
+kramdown:
   input: GFM
   highlighter: rouge
 
