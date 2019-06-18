@@ -10,15 +10,15 @@ tags: [portfolio]
 
 ## Example
 
-* [Lotto Generator]
+* [Lotto Generator] (2019.06)
   * [Check Github](https://github.com/emily7485/tensorflow-project-DrowsinessDetection)
   * Description: Generate 6 random numers
   * Build with: HTML 5, CSS 3, JS
   * role: 
 
+<br>
 
-
-* [Naver Sign In]
+* [Naver Sign In] (2019.05)
   * [Check Github](https://github.com/emily7485/css-example-NaverSignIn)
   * Description: Make a Sign in page of Naver
   * Build with: HTML 5, CSS 3
@@ -28,7 +28,7 @@ tags: [portfolio]
 
 ## Project
 
-* [Sound Detection Wearable Device]
+* [Sound Detection Wearable Device] (2019.05-2019.11)
   * [Check Github](https://github.com/emily7485/arduino-project-soundDetectwearabledevice)
   * Description: A Sound Detecting & Haptic Feedback Wearable Device for the Hearing-Impaired.
   * Build with: Arduino, AndroidStudio
@@ -37,7 +37,7 @@ tags: [portfolio]
 
 
 
-* [Drowsiness Detection] 
+* [Drowsiness Detection] (2019.05-2019.11)
   * [Check Github](https://github.com/emily7485/tensorflow-project-DrowsinessDetection)
   * Description: 졸음검출 
   * Build with: Python 2, TensorFlow, OpenCV 
@@ -46,6 +46,14 @@ tags: [portfolio]
 
 
 ---
+
+## Award
+
+- Hanium 2019 
+  - Subject
+
+
+```
 
 > [Github](http://github.com/emily74857485) 에서 다양한 오픈소스 프로젝트를 만나보세요.
 
