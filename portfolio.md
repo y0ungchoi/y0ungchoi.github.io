@@ -8,37 +8,41 @@ excerpt: 포트폴리오로 만들 공간
 tags: [portfolio]
 ---
 
-## 어떤것이 되려나 기도해보자
+## Example
 
-* [Example-Lotto generator](https://)
-  * Language: Html, css, js
-  * etc: Blueno-nano, Click2 
-  * Subject: 청각장애인을 위한 소리인식
-  * role: All
-
-
-
-* [Example-Naver Sign In](https://emily7485.github.io/test.github.io/01.NaverSignIn/signin.html)
-  * Language: Html, css, js
-  * etc: Blueno-nano, Click2 
-  * Subject: 청각장애인을 위한 소리인식
-  * role: All
-
-
-
-* [Project-소리인식](https://github.com/emily7485/arduino-project-soundDetectwearabledevice)
-  * Language: C (Arduino)
-  * etc: Blueno-nano, Click2 
-  * Subject: 청각장애인을 위한 소리인식
+* [Lotto Generator]
+  * [Check Github](https://github.com/emily7485/tensorflow-project-DrowsinessDetection)
+  * Description: Generate 6 random numers
+  * Build with: HTML 5, CSS 3, JS
   * role: 
 
 
 
-* [Project-졸음검출](https://)
-  * Language: Python2
-  * etc: OpenCV 
-  * Subject: 졸음검출
-  * role: 졸음 검출 
+* [Naver Sign In]
+  * [Check Github](https://github.com/emily7485/css-example-NaverSignIn)
+  * Description: Make a Sign in page of Naver
+  * Build with: HTML 5, CSS 3
+  * role: 
+
+----
+
+## Project
+
+* [Sound Detection Wearable Device]
+  * [Check Github](https://github.com/emily7485/arduino-project-soundDetectwearabledevice)
+  * Description: A Sound Detecting & Haptic Feedback Wearable Device for the Hearing-Impaired.
+  * Build with: Arduino, AndroidStudio
+  * etc: Blueno-nano, Speakup 2 Click(sound detection sensor) 
+  * role: 
+
+
+
+* [Drowsiness Detection] 
+  * [Check Github](https://github.com/emily7485/tensorflow-project-DrowsinessDetection)
+  * Description: 졸음검출 
+  * Build with: Python 2, TensorFlow, OpenCV 
+  * etc: LattePanda 
+  * role: 
 
 
 ---
