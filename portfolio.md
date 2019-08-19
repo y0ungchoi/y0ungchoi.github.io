@@ -32,7 +32,7 @@ tags: [portfolio]
   * [Check Github](https://github.com/emily7485/arduino-project-soundDetectwearabledevice)
   * Description: A Sound Detecting & Haptic Feedback Wearable Device for the Hearing-Impaired.
   * Build with: Arduino, AndroidStudio
-  * etc: Blueno-nano, Speakup 2 Click(sound detection sensor)
+  * etc: Bluno nano, Speakup 2 Click(sound detection sensor)
   * role:
 
 
@@ -49,10 +49,9 @@ tags: [portfolio]
 
 ## Awards and Honors
 
-- Hanium 2018 (한이음 공모전 2018)
-  - Subject: 
-  -
-  - https://drive.google.com/open?id=1BV2crAAjfSYUvilN3xXdm93rN1RZ2O5x
+- Honorable Mention in Hanium Awards 2018 (입선 - 한이음 공모전 2018)
+  - Subject: Prevent drivers from drowsy driving based on TensorFlow
+  - [certificate](https://drive.google.com/open?id=1BV2crAAjfSYUvilN3xXdm93rN1RZ2O5x)
 
 
 ```
