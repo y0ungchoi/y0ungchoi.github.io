@@ -78,7 +78,7 @@ tags: [portfolio]
   - Subject: A Sound Detecting & Haptic Feedback Wearable Device for the Hearing-Impaired
   - 출판사/출원국가: 한국정보과학회 학술발표논문집
   - 저자/출원인: 최은영 외2명
-  - http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07614272
+  - [Page](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07614272)
   - 최은영 외2명, 청각장애인을 위한 소리감지 알림 팔찌, 한국정보과학회 학술발표논문집, 2018.12, p.2250-2252
   - [Paper](https://drive.google.com/file/d/1WbB9uQS8WRzoMILQGvaLeoCbHMEMu08Y/view?usp=sharing)
 
