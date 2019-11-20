@@ -63,6 +63,9 @@ tags: [portfolio]
 - Paper
   - Subject: A Sound Detecting & Haptic Feedback Wearable Device for the Hearing-Impaired
   - [Paper](https://drive.google.com/file/d/1WbB9uQS8WRzoMILQGvaLeoCbHMEMu08Y/view?usp=sharing)
-```
+
+---
+## 포트폴리오
+- PDF [포트폴리오](https://drive.google.com/file/d/1Ij2rbASPLxGXJ1LcTbgNDMbC0x13DxVp/view?usp=sharing)
 
 > [GitHub](http://github.com/emily74857485) 에서 다양한 오픈소스 프로젝트를 만나보세요.
