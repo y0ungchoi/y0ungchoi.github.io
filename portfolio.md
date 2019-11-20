@@ -19,8 +19,8 @@ tags: [portfolio]
 <br>
 
 * [Naver Sign In] (2019.05)
-* Check the code from [GitHub](https://github.com/emily7485/css-example-NaverSignIn.git)
-* [See the result](https://emily7485.github.io/css-example-NaverSignIn/signin.html)
+  * Check the code from [GitHub](https://github.com/emily7485/css-example-NaverSignIn.git)
+  * [See the result](https://emily7485.github.io/css-example-NaverSignIn/signin.html)
   * Description: Make a Sign In page of a Naver
   * Build with: HTML 5, CSS 3
 
@@ -74,12 +74,15 @@ tags: [portfolio]
 
 <br>
 
-- Paper 
+- Paper
   - Subject: A Sound Detecting & Haptic Feedback Wearable Device for the Hearing-Impaired
+  - 출판사/출원국가: 한국정보과학회 학술발표논문집
+  - 저자/출원인: 최은영 외2명
+  - http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07614272
+  - 최은영 외2명, 청각장애인을 위한 소리감지 알림 팔찌, 한국정보과학회 학술발표논문집, 2018.12, p.2250-2252
   - [Paper](https://drive.google.com/file/d/1WbB9uQS8WRzoMILQGvaLeoCbHMEMu08Y/view?usp=sharing)
 
 ---
 ## 포트폴리오
-- PDF [포트폴리오](https://drive.google.com/file/d/1Ij2rbASPLxGXJ1LcTbgNDMbC0x13DxVp/view?usp=sharing)
-
+- PDF [포트폴리오](https://drive.google.com/open?id=1QIw2OQrZI1lFktYXfS9DWz76kBw6U2ta)
 > [GitHub](http://github.com/emily74857485) 에서 다양한 오픈소스 프로젝트를 만나보세요.
