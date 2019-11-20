@@ -914,6 +914,7 @@ body.tag-template #navbar {
 #post-content a {
     text-decoration: underline;
     text-decoration-color: #167ae4;
+    color: #167ae4;
 }
 
 #post-content > *:first-child {
