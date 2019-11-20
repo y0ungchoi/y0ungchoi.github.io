@@ -46,8 +46,8 @@ b, strong, optgroup {
 }
 
 a, a:link, a:visited, a:active, a:hover {
-    color: #505050;
-    text-decoration: none;
+    color: #167ae4;
+    //text-decoration: none;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -913,7 +913,7 @@ body.tag-template #navbar {
 
 #post-content a {
     text-decoration: underline;
-    text-decoration-color: #e6e6e6;
+    text-decoration-color: #167ae4;
 }
 
 #post-content > *:first-child {
@@ -1395,7 +1395,7 @@ body.author-template #cover p {
     }
 
     /* home */
-    
+
 
     body.home-template #navbar,
     body.archive-template #navbar,
@@ -1412,7 +1412,7 @@ body.author-template #cover p {
     }
 
     /* post */
-    
+
 
     #post-content {
         margin: 0 15px;
@@ -1470,10 +1470,10 @@ body.author-template #cover p {
         line-height: 100px;
     }
 
-   
+
 
     /* author */
-   
+
 
     body.author-template #cover h1,
     body.author-template #cover p {
@@ -1494,10 +1494,10 @@ body.author-template #cover p {
     }
 
     /* tag */
-    
+
 
     /* page */
-    
+
 
     #forkme {
         margin-right: -20px;
