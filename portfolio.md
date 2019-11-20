@@ -13,10 +13,11 @@ tags: [portfolio]
 * [Lotto Generator] (2019.06)
   * Check the code from [GitHub](https://github.com/emily7485/js-example-LottoGenerator.git)
   * [See the result](https://emily7485.github.io/js-example-LottoGenerator/lotto.html)
-  * Description: Generate 6 random numbers
+  * Description: Generate 6 random numbers and match it
   * Build with: HTML 5, CSS 3, JS
 
 <br>
+
 * [Naver Sign In] (2019.05)
 * Check the code from [GitHub](https://github.com/emily7485/css-example-NaverSignIn.git)
 * [See the result](https://emily7485.github.io/css-example-NaverSignIn/signin.html)
@@ -29,29 +30,40 @@ tags: [portfolio]
 
 * [Momasil] (2019.06.24 ~2019.07.19)
   * Check the code from [GitHub](https://github.com/emily7485/arduino-project-soundDetectwearabledevice)
-  * Description:
-  * Build with:
-  * etc:
-  * Role:
-
+  * [See the website](http://101.101.163.239:8080/jsppro1/jsp/index.jsp)
+  * Description:A beverage review website
+  * Build with: HTML 5, CSS 3, JS, jQuery, JSP, MySQL, AJAX
+  * Role
+    1. 데이터베이스 설계 및 구축
+    2. 메인 페이지 프론트/백엔드 개발
+    3. 네이버 클라우드 플랫폼에 서버 환경 구축 및 업로드(진행중)
 
 <br>
+
 * [Prevent drivers from drowsy driving based on TensorFlow] (2018.04.24~2018.11.30)
   * Check the code from [GitHub](https://github.com/emily7485/tensorflow-project-DrowsinessDetection)
   * Description: Prevent drivers from drowsy driving based on TensorFlow
   * Build with: Python 2, OpenCV, JAVA
   * etc: LattePanda, TensorFlow, Python, AndroidStudio
-  * Role: Develop SW with Python
+  * Role
+    1. 하드웨어와 소프트웨어의 개념으로 전체 시스템을 구상
+    2. Python을 사용하여 OpenCV 활용
+
 
 
 <br>
+
 * [A Sound Detecting & Haptic Feedback Wearable Device for the Hearing-Impaired] (2018.04.15~2018.11.30)
   * Check the code from [GitHub](https://github.com/emily7485/arduino-project-soundDetectwearabledevice)
   * [Presentation document](https://drive.google.com/file/d/1_ydg5PSvaunXrbxbwH_iF03pwW-HfEpq/view?usp=sharing)
-  * Description: A Sound Detecting & Haptic Feedback Wearable Device for the Hearing-Impaired.
+  * Description: A Sound Detecting & Haptic Feedback Wearable Device for the Hearing-Impaired
   * Build with: C, JAVA
   * etc: Bluno nano, Speak up 2 Click(sound detection sensor), Arduino IDE, AndroidStudio
-  * Role:
+  * Role
+    1. Sound 센서의 소리를 Arduino에서 조건에 맞게 받아오도록 코딩
+    2. 소리에 맞는 Haptic feedback을 실험을 통해 구성
+    3. 웨어러블 기기 제작
+
 ---
 
 ## Awards and Honors
@@ -60,7 +72,9 @@ tags: [portfolio]
   - Subject: Prevent drivers from drowsy driving based on TensorFlow
   - [Certificate](https://drive.google.com/open?id=1BV2crAAjfSYUvilN3xXdm93rN1RZ2O5x)
 
-- Paper
+<br>
+
+- Paper 
   - Subject: A Sound Detecting & Haptic Feedback Wearable Device for the Hearing-Impaired
   - [Paper](https://drive.google.com/file/d/1WbB9uQS8WRzoMILQGvaLeoCbHMEMu08Y/view?usp=sharing)
 
