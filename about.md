@@ -20,7 +20,7 @@ I'm feeding a cat named **Puppy**.
 
 ---
 #### Connection
-- [![Github](/assets/images/pc/icon_git.png)](http://github.com/youngchoi2094)[ GitHub: See my Projects!](http://github.com//youngchoi2094)
+- [![Github](/assets/images/pc/icon_git.png)](http://github.com/youngchoi2094)[ GitHub: See my Projects!](http://github.com/youngchoi2094)
 
 - [![CodePen](/assets/images/pc/icon_codepen.png)](https://codepen.io/youngchoi2094/)[ CodePen: See my Pens!](https://codepen.io/youngchoi2094/)
 
