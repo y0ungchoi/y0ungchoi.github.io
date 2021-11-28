@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[JAVA]01. Variables and Data Types'
-author: emily.choi
+author: Eun-young
 date: 2019-01-07 12:00
 tags: [java]
 image: /files/covers/java_logo.jpg

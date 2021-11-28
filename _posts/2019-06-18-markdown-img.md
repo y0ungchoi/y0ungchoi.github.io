@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[Markdown]Resizing img in Github Pages'
-author: emily.choi
+author: Eun-young
 date: 2019-06-18 11:00
 tags: [markdown]
 image: /files/covers/markdown.png

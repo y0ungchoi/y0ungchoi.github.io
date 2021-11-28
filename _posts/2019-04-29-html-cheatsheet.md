@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[HTML]01. CheatSheet'
-author: emily.choi
+author: Eun-young
 date: 2019-04-29 13:00
 tags: [html]
 image: /files/covers/html.png

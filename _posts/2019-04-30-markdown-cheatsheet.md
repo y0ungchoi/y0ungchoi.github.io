@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[Markdown]01. CheatSheet'
-author: emily.choi
+author: Eun-young
 date: 2019-04-29 13:00
 tags: [markdown]
 image: /files/covers/markdown.png
@@ -84,7 +84,7 @@ image: /files/covers/markdown.png
  
 ![URLImage](URL)
 ```
-![IMAGE](../files/authors/emily.choi.jpg "my")
+![IMAGE](../files/authors/Eun-young.jpg "my")
  
 ![MYIG](https://scontent-icn1-1.cdninstagram.com/vp/7de1ac7385c82f8db5dfc71e52c6b74a/5D6AB98B/t51.2885-15/e15/11111259_1639308979626133_1734319377_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com)
 

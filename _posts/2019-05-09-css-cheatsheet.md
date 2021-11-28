@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[CSS]01. CheatSheet'
-author: emily.choi
+author: Eun-young
 date: 2019-05-09 09:00
 tags: [css]
 image: /files/covers/css.png

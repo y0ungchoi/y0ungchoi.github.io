@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[Project]Momasil'
-author: emily.choi
+author: Eun-young
 date: 2019-08-24 21:26
 tags: [project,portfolio]
 image: /files/covers/project.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[JAVA]03. Functions'
-author: emily.choi
+author: Eun-young
 date: 2019-01-08 13:00
 tags: [java]
 image: /files/covers/java_logo.jpg

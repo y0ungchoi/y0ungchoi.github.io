@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[JAVA]05. Java'
-author: emily.choi
+author: Eun-young
 date: 2019-01-14 13:00
 tags: [java]
 image: /files/covers/java_logo.jpg

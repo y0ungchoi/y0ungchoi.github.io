@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[JAVA]04. Loops'
-author: emily.choi
+author: Eun-young
 date: 2019-01-10 13:00
 tags: [java]
 image: /files/covers/java_logo.jpg
