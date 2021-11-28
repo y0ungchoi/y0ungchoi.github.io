@@ -11,16 +11,16 @@ tags: [portfolio]
 ## Examples
 
 * [Lotto Generator] (2019.06)
-  * Check the code from [GitHub](https://github.com/emily7485/js-example-LottoGenerator.git)
-  * [See the result](https://emily7485.github.io/js-example-LottoGenerator/lotto.html)
+  * Check the code from [GitHub](https://github.com/y0ungchoi/js-example-LottoGenerator.git)
+  * [See the result](https://y0ungchoi.github.io/js-example-LottoGenerator/lotto.html)
   * Description: Generate 6 random numbers and match it
   * Build with: HTML 5, CSS 3, JS
 
 <br>
 
 * [Naver Sign In] (2019.05)
-  * Check the code from [GitHub](https://github.com/emily7485/css-example-NaverSignIn.git)
-  * [See the result](https://emily7485.github.io/css-example-NaverSignIn/signin.html)
+  * Check the code from [GitHub](https://github.com/y0ungchoi/css-example-NaverSignIn.git)
+  * [See the result](https://y0ungchoi.github.io/css-example-NaverSignIn/signin.html)
   * Description: Make a Sign In page of a Naver
   * Build with: HTML 5, CSS 3
 
@@ -29,7 +29,7 @@ tags: [portfolio]
 ## Projects
 
 * [Momasil] (2019.06.24 ~2019.07.19)
-  * Check the code from [GitHub](https://github.com/emily7485/arduino-project-soundDetectwearabledevice)
+  * Check the code from [GitHub](https://github.com/y0ungchoi/arduino-project-soundDetectwearabledevice)
   * [See the website](http://101.101.163.239:8080/jsppro1/jsp/index.jsp)
   * Description:A beverage review website
   * Build with: HTML 5, CSS 3, JS, jQuery, JSP, MySQL, AJAX
@@ -41,7 +41,7 @@ tags: [portfolio]
 <br>
 
 * [Prevent drivers from drowsy driving based on TensorFlow] (2018.04.24~2018.11.30)
-  * Check the code from [GitHub](https://github.com/emily7485/tensorflow-project-DrowsinessDetection)
+  * Check the code from [GitHub](https://github.com/y0ungchoi/tensorflow-project-DrowsinessDetection)
   * Description: Prevent drivers from drowsy driving based on TensorFlow
   * Build with: Python 2, OpenCV, JAVA
   * etc: LattePanda, TensorFlow, Python, AndroidStudio
@@ -54,7 +54,7 @@ tags: [portfolio]
 <br>
 
 * [A Sound Detecting & Haptic Feedback Wearable Device for the Hearing-Impaired] (2018.04.15~2018.11.30)
-  * Check the code from [GitHub](https://github.com/emily7485/arduino-project-soundDetectwearabledevice)
+  * Check the code from [GitHub](https://github.com/y0ungchoi/arduino-project-soundDetectwearabledevice)
   * [Presentation document](https://drive.google.com/file/d/1_ydg5PSvaunXrbxbwH_iF03pwW-HfEpq/view?usp=sharing)
   * Description: A Sound Detecting & Haptic Feedback Wearable Device for the Hearing-Impaired
   * Build with: C, JAVA
@@ -85,4 +85,4 @@ tags: [portfolio]
 ---
 ## 포트폴리오
 - PDF [포트폴리오](https://drive.google.com/open?id=1QIw2OQrZI1lFktYXfS9DWz76kBw6U2ta)
-> [GitHub](http://github.com/emily74857485) 에서 다양한 오픈소스 프로젝트를 만나보세요.
+> [GitHub](http://github.com/y0ungchoi) 에서 다양한 오픈소스 프로젝트를 만나보세요.

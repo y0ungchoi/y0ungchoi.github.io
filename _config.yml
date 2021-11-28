@@ -1,13 +1,13 @@
 title: YOLO 
-email: emily7485@naver.com
+email: youngchoi2094@gmail.com
 description: |
   but also FOREVER
   
 baseurl: ''
-url: 'https://emily7485.github.io'
+url: 'https://y0ungchoi.github.io'
 timezone: Asia/Seoul 
 
-repository: emily7485/emily7485.github.io
+repository: youngchoi2094/y0ungchoi.github.io
 
 permalink: /:year/:month/:day/:title/
 
@@ -50,13 +50,13 @@ exclude: [README.md, Gemfile, Gemfile.lock]
 keep_files: [assets, files]
 github: [metadata]
 # Eunyoung's custom
-author: emily7485@naver.com
+author: youngchoi2094@gmail.com
 image: '/assets/images/default_blog_cover.jpg'
 asset_url: /assets
 #asset_url: //meta-kage.kakaocdn.net/dn/osa/blog/assets
 #asset_url: //t1.daumcdn.net/osa/blog/assets
 github_url: 
-  username: emily7485
+  username: youngchoi2094
   
   
 # disqus

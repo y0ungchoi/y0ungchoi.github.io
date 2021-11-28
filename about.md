@@ -20,13 +20,13 @@ I'm feeding a cat named **Puppy**.
 
 ---
 #### Connection
-- [![Github](/assets/images/pc/icon_git.png)](http://github.com//emily7485)[ GitHub: See my Projects!](http://github.com//emily7485)
+- [![Github](/assets/images/pc/icon_git.png)](http://github.com//youngchoi2094)[ GitHub: See my Projects!](http://github.com//youngchoi2094)
 
-- [![CodePen](/assets/images/pc/icon_codepen.png)](https://codepen.io/emily7485/)[ CodePen: See my Pens!](https://codepen.io/emily7485/)
+- [![CodePen](/assets/images/pc/icon_codepen.png)](https://codepen.io/youngchoi2094/)[ CodePen: See my Pens!](https://codepen.io/youngchoi2094/)
 
 - [![Instagram](/assets/images/pc/icon_instagram.png)](https://www.instagram.com/emily_daily_/)[ Instagram: Meet my cat!](https://www.instagram.com/emily_daily_/) 
 
-- [![NaverBlog](/assets/images/pc/icon_naverblog.png)](http://blog.naver.com/emily7485)[ NaverBlog: Korean life](http://blog.naver.com/emily7485)
+- [![NaverBlog](/assets/images/pc/icon_naverblog.png)](http://blog.naver.com/youngchoi2094)[ NaverBlog: Korean life](http://blog.naver.com/youngchoi2094)
 
 - [![Coding](/assets/images/pc/icon_coding.png)](https://www.opentutorials.org/course/3799)[ 생활코딩: See my Course about C, JAVA, Python](https://www.opentutorials.org/course/3799)
    

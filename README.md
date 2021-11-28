@@ -1,1 +1,1 @@
-## Eunyoung's personal website.
+## Eun-young's personal website.
