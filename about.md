@@ -11,11 +11,11 @@ tags: [about]
 > -Jared Totten-
 
 
-**Eunyoung "Emily" Choi** (b.1994)
+**Eun-young Choi** (b.1994)
 
-My name is **Eunyoung**, but you can call me **Emily**. 
-I live in Seoul,South Korea, but I call many places home.
-Currently I'm a student.
+My name is **Eun-young** 
+I live in Seoul, South Korea, but I call many places home.
+Currently I work for [Naver Connect Foundation](https://connect.or.kr/).
 I'm feeding a cat named **Puppy**. 
 
 ---
