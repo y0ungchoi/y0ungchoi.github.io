@@ -29,7 +29,7 @@ tags: [portfolio]
 ## Projects
 
 * [Momasil] (2019.06.24 ~2019.07.19)
-  * Check the code from [GitHub](https://github.com/y0ungchoi/arduino-project-soundDetectwearabledevice)
+  * Check the code from [GitHub](https://github.com/y0ungchoi/web-project-Momasil)
   * [See the website](http://101.101.163.239:8080/jsppro1/jsp/index.jsp)
   * Description:A beverage review website
   * Build with: HTML 5, CSS 3, JS, jQuery, JSP, MySQL, AJAX

@@ -37,5 +37,5 @@ image: /files/covers/markdown.png
 
 
 
-> get codes [Github](https://github.com/youngchoi2094/arduino-project-soundDetectwearabledevice).
+> get codes [Github](https://github.com/y0ungchoi/arduino-project-soundDetectwearabledevice).
 
